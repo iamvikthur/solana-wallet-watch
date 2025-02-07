@@ -73,8 +73,8 @@ async function monitorWalletReceipts(
       }
     } catch (error) {
       console.error("Error in balance check:", error);
-      console.log("TRYING TRANSFER AGAIN");
-      await checkBalanceAndTransfer();
+      // console.log("TRYING TRANSFER AGAIN");
+      // await checkBalanceAndTransfer();
     }
   }
 
